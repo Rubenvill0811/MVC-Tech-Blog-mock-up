@@ -8,8 +8,7 @@ const sequelize = new Sequelize(
     {
         host: 'localhost',
         port: '3001',
-        dialect: 'mysql2',
-        dialectModule: require('mysql2'),
+        dialect: 'mysql'
     }
 );
 
